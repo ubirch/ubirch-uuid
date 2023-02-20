@@ -4,7 +4,7 @@ This code allows you to generate UUIDs according to the [RFC4122](https://tools.
 ## Single Namespace UUID
 Based on a specific Namespace UUID, further device UUIDs can be generated, therefore:
 
-- run the `uuid_test()` function from `utest.c`
+- run Testcase "create UUID v5 based on namespace UUID"
 
 The output should be:
 ```bash
@@ -17,7 +17,7 @@ device uuid, based on ["12345678"]: e97ef829-65a8-5a3c-a62a-1a4406813169
 ## Derived Namespace UUID
 Based on a specific Namespace UUID, a derived Namespace UUID can be generated, from where further device UUIDs can be generated, therefore:
 
-- run the `uuid_test_derived()` function from `utest.c`
+- run Testcase "create derived UUID v5 based on derived namespace UUID"
 
 The output should be:
 ```bash
